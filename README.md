@@ -11,7 +11,7 @@
 
 <header>
   <div class="hero">
-    <h1>Moquins Land Clearing</h1>
+    <h1>MOQUIN EARTHWORKS</h1>
     <p>Land Clearing • Forestry Mulching • Grading</p>
     <p>Pittsburgh, PA & Surrounding Areas</p>
 
@@ -71,7 +71,7 @@
 </section>
 
 <footer>
-  <p>© 2026 Moquins Land Clearing — Pittsburgh, PA</p>
+  <p>© 2026 MOQUIN EARTHWORKS — Pittsburgh, PA</p>
 </footer>
 
 </body>
