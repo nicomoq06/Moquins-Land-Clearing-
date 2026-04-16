@@ -3,193 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moquin Earthwork | Pittsburgh, PA</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      color: #333;
-    }
-
-    header {
-      background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') no-repeat center/cover;
-      color: white;
-      padding: 120px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1.2em;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 25px;
-      background: #2e7d32;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-
-    section {
-      padding: 50px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .services {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .service-box {
-      flex: 1 1 250px;
-      background: #f4f4f4;
-      padding: 20px;
-      border-radius: 8px;
-      text-align: center;
-    }
-
-    .contact {
-      text-align: center;
-      font-size: 1.1em;
-    }
-
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-  </style>
+  <title>Moquins Land Clearing</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-  <h1>Moquins Land Clearing</h1>
-  <p>Land Clearing • Mulching • Grading</p>
-  <p>Pittsburgh, PA & Surrounding Areas</p>
-  <a href="tel:4126121530" class="btn">Call Now</a>
+  <div class="hero">
+    <h1>Moquins Land Clearing</h1>
+    <p>Land Clearing • Forestry Mulching • Grading</p>
+    <p>Pittsburgh, PA & Surrounding Areas</p>
+
+    <a class="call-btn" href="tel:4126121530">📞 Call Now: 412-612-1530</a>
+  </div>
 </header>
 
-<section>
-  <h2>About Us</h2>
-  <p style="text-align:center;">
-    Moquins Land Clearing provides professional land clearing, forestry mulching,
-    and grading services throughout Pittsburgh, PA and surrounding areas.
-    We take pride in delivering fast, reliable, and high-quality work to get your
-    property ready for whatever comes next.
+<section id="about">
+  <h2>Reliable Land Clearing You Can Trust</h2>
+  <p>
+    We specialize in clearing overgrown land, forestry mulching, brush removal, and grading.
+    Whether you're preparing for construction, cleaning up acreage, or improving property value,
+    we get the job done fast and clean.
   </p>
 </section>
 
-<section>
+<section id="services">
   <h2>Our Services</h2>
-  <div class="services">
-    
-    <div class="service-box">
-      <h3>Land Clearing</h3>
-      <p>Complete property clearing for residential, commercial, and new construction projects.</p>
-    </div>
 
-    <div class="service-box">
-      <h3>Forestry Mulching</h3>
-      <p>Efficient brush and tree removal with minimal ground disturbance.</p>
-    </div>
+  <div class="service-box">
+    <h3>🌲 Land Clearing</h3>
+    <p>Remove trees, brush, and unwanted vegetation efficiently.</p>
+  </div>
 
-    <div class="service-box">
-      <h3>Grading</h3>
-      <p>Professional land leveling and site prep for driveways, builds, and drainage.</p>
+  <div class="service-box">
+    <h3>🌿 Forestry Mulching</h3>
+    <p>Turn thick overgrowth into clean, usable ground cover.</p>
+  </div>
+
+  <div class="service-box">
+    <h3>🚜 Grading</h3>
+    <p>Level and prepare your land for building or development.</p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Before & After Results</h2>
+
+  <div class="gallery">
+
+    <div class="project">
+      <h3>Heavy Woods Removal</h3>
+      <div class="images">
+        <div><img src="before1.jpg"><p>Before</p></div>
+        <div><img src="after1.jpg"><p>After</p></div>
+      </div>
     </div>
 
   </div>
 </section>
 
-<section>
-  <h2>Why Choose Us</h2>
-  <ul style="max-width:600px;margin:auto;">
-    <li>✔ Fast & Reliable Service</li>
-    <li>✔ Professional Equipment</li>
-    <li>✔ Locally Owned & Operated</li>
-    <li>✔ Free Estimates</li>
-  </ul>
-</section>
+<section id="contact">
+  <h2>Get a Free Estimate</h2>
+  <p>Call or text today for fast pricing and availability.</p>
 
-<section class="contact">
-  <h2>Contact Us</h2>
-  <p><strong>Phone:</strong> <a href="tel:4126121530">412-612-1530</a></p>
-  <p><strong>Service Area:</strong> Pittsburgh, PA & surrounding areas</p>
-  <p>Call today for a free estimate!</p>
+  <a class="call-btn" href="tel:4126121530">📞 412-612-1530</a>
 </section>
 
 <footer>
-  <p>© 2026 Moquins Land Clearing. All rights reserved.</p>
+  <p>© 2026 Moquins Land Clearing — Pittsburgh, PA</p>
 </footer>
 
 </body>
 </html>
-#projects {
-  padding: 50px 20px;
-  text-align: center;
-  background: #f5f5f5;
-}
-
-#projects h2 {
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-.gallery {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  margin-top: 30px;
-}
-
-.project {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  max-width: 900px;
-  margin: auto;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.images {
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-  margin-top: 15px;
-  flex-wrap: wrap;
-}
-
-.images div {
-  flex: 1;
-  min-width: 250px;
-}
-
-.images img {
-  width: 100%;
-  border-radius: 10px;
-  height: 250px;
-  object-fit: cover;
-}
-
-.images p {
-  font-weight: bold;
-  margin-top: 8px;
-}
