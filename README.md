@@ -142,3 +142,54 @@
 
 </body>
 </html>
+#projects {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+#projects h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.project {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.images div {
+  flex: 1;
+  min-width: 250px;
+}
+
+.images img {
+  width: 100%;
+  border-radius: 10px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.images p {
+  font-weight: bold;
+  margin-top: 8px;
+}
